@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #000000;fefefe
   background-color: #;
   overflow-x: hidden;
@@ -56,11 +56,12 @@ body {
   font-weight: bold;
   margin-bottom: 0;
   text-transform: uppercase;
+
 }
 
 .heading_container p {
   margin-top: 10px;
-  margin-bottom: 0;
+  margin-bottom: 30px;
 }
 
 .heading_container.heading_center {
@@ -146,6 +147,8 @@ a:focus {
   padding-right: 25px;
   padding-left: 25px;
 }
+
+
 
 .navbar-brand span {
   font-weight: bold;
@@ -275,6 +278,7 @@ a:focus {
   position: unset;
 }
 
+
 .slider_section .detail-box {
   color: #1e7898;
 }
@@ -296,9 +300,20 @@ a:focus {
 
 .slider_section .detail-box p {
   color: #fefefe;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
+.heading_container p {
+  font-size: 1.25rem;
+}
+
+.detail-box p {
+  font-size: 1.2rem;
+}
+
+.btn-box a {
+   font-size: 1.25rem;
+}
 .slider_section .detail-box .btn-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -328,6 +343,7 @@ a:focus {
   background-color: transparent;
   color: #ffffff;
 }
+
 
 .slider_section .img-box {
   display: -webkit-box;
@@ -553,12 +569,18 @@ a:focus {
   transition: all .3s;
 }
 
-.doctor_section .box .detail-box .social_box a {
-  color: #2596be;
+.doctor_section .box .detail-box a {
+  color: black;
   margin: 0 10px;
 }
 
-.doctor_section .box .detail-box .social_box a:hover {
+.doctor_section a {
+  color: black;
+  margin: 0 10px;
+}
+
+
+.doctor_section .box .detail-box a:hover {
   color: #1e7898;
 }
 
@@ -590,7 +612,7 @@ a:focus {
 
 .doctor_section .btn-box a:hover {
   background-color: transparent;
-  color: #1e7898;
+  color: white;
 }
 
 .contact_section {
