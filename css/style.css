@@ -148,8 +148,6 @@ a:focus {
   padding-left: 25px;
 }
 
-
-
 .navbar-brand span {
   font-weight: bold;
   font-size: 24px;
@@ -304,11 +302,11 @@ a:focus {
 }
 
 .heading_container p {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
 }
 
 .detail-box p {
-  font-size: 1.2rem;
+  font-size: 1.05rem;
 }
 
 .btn-box a {
@@ -343,7 +341,6 @@ a:focus {
   background-color: transparent;
   color: #ffffff;
 }
-
 
 .slider_section .img-box {
   display: -webkit-box;
@@ -569,18 +566,12 @@ a:focus {
   transition: all .3s;
 }
 
-.doctor_section .box .detail-box a {
-  color: black;
+.doctor_section .box .detail-box .social_box a {
+  color: #2596be;
   margin: 0 10px;
 }
 
-.doctor_section a {
-  color: black;
-  margin: 0 10px;
-}
-
-
-.doctor_section .box .detail-box a:hover {
+.doctor_section .box .detail-box .social_box a:hover {
   color: #1e7898;
 }
 
@@ -612,7 +603,7 @@ a:focus {
 
 .doctor_section .btn-box a:hover {
   background-color: transparent;
-  color: white;
+  color: #1e7898;
 }
 
 .contact_section {
