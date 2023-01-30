@@ -304,15 +304,15 @@ a:focus {
 }
 
 .heading_container p {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
 }
 
 .detail-box p {
-  font-size: 1.2rem;
+  font-size: 1.05rem;
 }
 
 .btn-box a {
-   font-size: 1.25rem;
+   font-size: 1.2rem;
 }
 .slider_section .detail-box .btn-box {
   display: -webkit-box;
